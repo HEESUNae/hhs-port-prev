@@ -1,13 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+html {
+  font-size: 10px;
+}
+html.active {
+  overflow: hidden;
+}
+
+* {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+button {
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  cursor: pointer;
+}
+section {
+  padding-bottom: 4rem;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* RESPONSE */
+@media (max-width: 1440px) {
+  .inner {
+    width: 100%;
+    padding: 0 3rem !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 750px) {
+  html {
+    font-size: 9px;
+  }
+  .sec01 .inner {
+    display: block !important;
+  }
+  .sec01 table {
+    width: 100%;
+  }
+  .sec01 .hs-carrer td {
+    padding: 0 !important;
+  }
+
+  .sec01 .hs-carrer tbody {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 0;
+  }
+  .hs-info {
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 0 !important;
+  }
+  .hs-carrer th,
+  .hs-carrer td {
+    display: block;
+  }
+}
+@media (max-width: 550px) {
+  .img-container > div,
+  .hs-project ul {
+    border: 0 !important;
+    padding: 0 !important;
+  }
+  .sec01 {
+    padding: 0 0 4rem !important;
+  }
+  .hs-info {
+    flex-direction: column;
+  }
+  .hs-info figure {
+    margin: 0 auto;
+  }
+  .hs-carrer {
+    background-color: transparent !important;
+    padding: 4rem 0 0 !important;
+  }
+  .hs-project ul {
+    grid-template-columns: auto !important;
+  }
+  .modal-container {
+    width: 100% !important;
+  }
 }
