@@ -25,21 +25,16 @@ interface SkillItemProps {
 
 const MainPage = () => {
   const [isSkillModal, setIsSkillModal] = useState(false);
-  const [modalPosition, setModalPosition] = useState({
-    top: 0,
-    left: 0,
-    item: { id: 0, lang: '', image: '', bgColor: '', contents: '' },
-  });
+  const [modalProperty, setModalProperty] = useState({ id: 0, lang: '', image: '', bgColor: '', contents: '' });
 
-  // skill 팝업 열고 닫기
+  // skillModal open/close
   const onClick = () => {
     setIsSkillModal((prev) => !prev);
   };
 
-  // skill 팝업 postion
-  const onMouseEnter = (item: SkillItemProps, e: React.MouseEvent) => {
-    const target = e.target as HTMLButtonElement;
-    setModalPosition({ top: target.offsetTop, left: target.offsetLeft, item: item });
+  // skillModal property
+  const onMouseEnter = (item: SkillItemProps) => {
+    setModalProperty(item);
   };
 
   useEffect(() => {
@@ -106,6 +101,11 @@ const MainPage = () => {
                         <figure className="thumbnail">
                           <img src={item.thumbnail} alt="" />
                         </figure>
+                        <div className="badge-container">
+                          {item.lang.map((lang) => (
+                            <div className="badge">{lang}</div>
+                          ))}
+                        </div>
                         <div className="info">{item.info}</div>
                       </a>
                     </li>
@@ -115,7 +115,7 @@ const MainPage = () => {
             </div>
           </div>
         </section>
-        <SkillModal isSkillModal={isSkillModal} setIsSkillModal={setIsSkillModal} modalposition={modalPosition} />
+        <SkillModal isSkillModal={isSkillModal} setIsSkillModal={setIsSkillModal} modalProperty={modalProperty} />
       </main>
     </StyledMain>
   );

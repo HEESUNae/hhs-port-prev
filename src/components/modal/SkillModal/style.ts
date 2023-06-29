@@ -1,29 +1,25 @@
 import { styled } from 'styled-components';
 
 export const StyledSkillModal = styled.div`
-  top: ${() => window.scrollY + 'px'};
-  left: 0;
   .modal {
     width: 0;
     height: 0;
-    transition: 0.3s ease-in-out;
-    opacity: 0;
+    transition: width, height 0.3s ease-in-out;
     display: flex;
     align-content: center;
     justify-content: center;
+    transform: scale(0);
+    position: absolute;
+    top: ${() => window.scrollY + 'px'};
+    left: 0;
     &.active {
       width: 100vw;
       height: 100vh;
-      position: absolute;
-      top: ${() => window.scrollY + 'px'};
-      left: 0;
-      opacity: 1;
-
+      transform: scale(1);
       .modal-container {
         visibility: visible;
       }
     }
-
     &-container {
       color: #000;
       top: 50vh;

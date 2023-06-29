@@ -106,6 +106,18 @@ export const StyledMain = styled.div`
             margin-top: 1rem;
             color: #fff;
           }
+          .badge-container {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            .badge {
+              font-size: 1.2rem;
+              background-color: rgba(255, 255, 255, 0.3);
+              backdrop-filter: blur(1rem);
+              padding: 0 1rem;
+              color: #fff;
+            }
+          }
         }
       }
     }

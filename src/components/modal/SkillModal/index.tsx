@@ -13,21 +13,21 @@ interface SkillItemProps {
 
 interface SkillModalProps {
   isSkillModal: boolean;
-  modalposition: { top: number; left: number; item: SkillItemProps };
+  modalProperty: SkillItemProps;
   setIsSkillModal: Dispatch<SetStateAction<boolean>>;
 }
 
-const SkillModal: React.FC<SkillModalProps> = ({ isSkillModal, setIsSkillModal, modalposition }) => {
+const SkillModal: React.FC<SkillModalProps> = ({ isSkillModal, setIsSkillModal, modalProperty }) => {
   return (
     <StyledSkillModal>
-      <div className={`modal ${isSkillModal && 'active'}`} style={{ backgroundColor: modalposition.item.bgColor }}>
+      <div className={`modal ${isSkillModal && 'active'}`} style={{ backgroundColor: modalProperty.bgColor }}>
         <div className="modal-container">
           <figure>
-            <img src={modalposition.item.image} alt="" />
-            <figcaption>{modalposition.item.lang}</figcaption>
+            <img src={modalProperty.image} alt="" />
+            <figcaption>{modalProperty.lang}</figcaption>
           </figure>
           <div className="modal-contents">
-            <p>{modalposition.item.contents}</p>
+            <p>{modalProperty.contents}</p>
             <button type="button" onClick={() => setIsSkillModal(false)}>
               닫기
             </button>
