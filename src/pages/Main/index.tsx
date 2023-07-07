@@ -103,7 +103,9 @@ const MainPage = () => {
                         </figure>
                         <div className="badge-container">
                           {item.lang.map((lang) => (
-                            <div className="badge">{lang}</div>
+                            <div className="badge" key={lang}>
+                              {lang}
+                            </div>
                           ))}
                         </div>
                         <div className="info">{item.info}</div>

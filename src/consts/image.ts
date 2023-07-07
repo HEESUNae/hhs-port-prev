@@ -23,9 +23,11 @@ export const skillImg = {
   icoReact: require('../assets/icon/skill/icon-react.svg').default,
   icoNextjs: require('../assets/icon/skill/icon-nextjs.svg').default,
   icoNodejs: require('../assets/icon/skill/icon-nodejs.svg').default,
+  icoMongodb: require('../assets/icon/skill/icon-mongodb.svg').default,
 };
 
 export const thumbnail = {
+  todoList: require('../assets/image/thumbnail/thumbnail-todoList.jpg'),
   rabbitBlog: require('../assets/image/thumbnail/thumbnail-rabbitBlog.jpg'),
   pokemon: require('../assets/image/thumbnail/thumbnail-pokemon.webp'),
   mapleStory: require('../assets/image/thumbnail/thumbnail-mapleStory.jpg'),

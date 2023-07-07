@@ -110,6 +110,7 @@ export const StyledMain = styled.div`
             display: flex;
             gap: 1rem;
             margin-top: 1.5rem;
+            flex-wrap: wrap;
             .badge {
               font-size: 1.2rem;
               background-color: rgba(255, 255, 255, 0.3);

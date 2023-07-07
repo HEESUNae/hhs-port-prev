@@ -36,7 +36,7 @@ const shakeBottom = keyframes`
 
 export const StyledSkillBtn = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(14.4rem, 1fr));
   gap: 1rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.1);
   border-radius: 0.4rem;
