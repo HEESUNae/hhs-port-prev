@@ -51,7 +51,7 @@ section {
 }
 @media (max-width: 750px) {
   html {
-    font-size: 9px;
+    font-size: 9.5px;
   }
   .sec01 .inner {
     display: block !important;
@@ -76,6 +76,7 @@ section {
   .hs-carrer th,
   .hs-carrer td {
     display: block;
+    width: 80% !important;
   }
 }
 @media (max-width: 550px) {
