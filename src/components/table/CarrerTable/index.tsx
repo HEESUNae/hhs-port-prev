@@ -13,10 +13,10 @@ const ListTable: React.FC<ListTableProp> = ({ title }) => {
       <tbody>
         {carrerApi.map((item) => (
           <tr key={item.id}>
-            <th>{item.period}</th>
-            <td>{item.companyName}</td>
-            <td>{item.companyCategory}</td>
-            <td>{item.work}</td>
+            <th style={{ width: '28%' }}>{item.period}</th>
+            <td style={{ width: '17%' }}>{item.companyName}</td>
+            <td style={{ width: '20%' }}>{item.companyCategory}</td>
+            <td style={{ width: '*' }}>{item.work}</td>
           </tr>
         ))}
       </tbody>

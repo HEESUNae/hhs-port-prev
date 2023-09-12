@@ -30,6 +30,7 @@ export const thumbnail = {
   todoList: require('../assets/image/thumbnail/thumbnail-todoList.jpg'),
   rabbitBlog: require('../assets/image/thumbnail/thumbnail-rabbitBlog.jpg'),
   pokemon: require('../assets/image/thumbnail/thumbnail-pokemon.webp'),
+  pokemonBook: require('../assets/image/thumbnail/thumbnail-pokemon-book.jpeg'),
   mapleStory: require('../assets/image/thumbnail/thumbnail-mapleStory.jpg'),
   disney: require('../assets/image/thumbnail/thumbnail-disney.jpg'),
   apple: require('../assets/image/thumbnail/thumbnail-apple.jpg'),

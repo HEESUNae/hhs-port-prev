@@ -86,6 +86,7 @@ export const StyledMain = styled.div`
       &-project {
         .project-container {
           width: 100%;
+          background-color: rgba(0, 0, 0, 0.8);
           ul {
             border: 0.1rem solid rgba(255, 255, 255, 0.1);
             display: grid;

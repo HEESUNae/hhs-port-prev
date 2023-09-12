@@ -8,7 +8,7 @@ html.active {
 }
 
 * {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 0;
   padding: 0;
   text-align: left;
@@ -97,8 +97,13 @@ section {
     background-color: transparent !important;
     padding: 4rem 0 0 !important;
   }
-  .hs-project ul {
-    grid-template-columns: auto !important;
+  .hs-project {
+    .project-container {
+      background-color: transparent !important;
+    }
+    ul {
+      grid-template-columns: auto !important;
+    }
   }
   .modal-container {
     width: 100% !important;
