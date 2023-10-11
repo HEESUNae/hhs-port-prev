@@ -176,6 +176,13 @@ export const skillApi = [
 export const projectApi = [
   {
     id: 1,
+    link: 'https://incheon-parking.vercel.app/',
+    thumbnail: thumbnail.incheonParking,
+    info: '인천광역시 주차장 정보 현황 개인프로젝트 "Incheon Parking"',
+    lang: ['HTML', 'CSS', 'TypeScript', 'React.js'],
+  },
+  {
+    id: 1,
     link: 'https://best-dilly.vercel.app/',
     thumbnail: thumbnail.bestDilly,
     info: '맛집 공유 플랫폼 개인 프로젝트 "Best Dilly"',
@@ -238,11 +245,11 @@ export const projectApi = [
     info: '<fastcampus> "Starbucks"',
     lang: ['HTML', 'CSS', 'JavaScript'],
   },
-  {
-    id: 10,
-    link: 'https://next-js-maple-story-2w2c.vercel.app/',
-    thumbnail: thumbnail.mapleStory,
-    info: '메이플스토리 이미지를 활용하여 만든 개인 프로젝트 "Mapple Story"',
-    lang: ['HTML', 'CSS', 'TypeScript', 'Next.js'],
-  },
+  // {
+  //   id: 10,
+  //   link: 'https://next-js-maple-story-2w2c.vercel.app/',
+  //   thumbnail: thumbnail.mapleStory,
+  //   info: '메이플스토리 이미지를 활용하여 만든 개인 프로젝트 "Mapple Story"',
+  //   lang: ['HTML', 'CSS', 'TypeScript', 'Next.js'],
+  // },
 ];

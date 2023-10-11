@@ -37,4 +37,5 @@ export const thumbnail = {
   tictactoe: require('../assets/image/thumbnail/thumbnail-tictactoe.jpg'),
   starbucks: require('../assets/image/thumbnail/thumbnail-starbucks.jpg'),
   bestDilly: require('../assets/image/thumbnail/thumbnail-bestdilly.jpeg'),
+  incheonParking: require('../assets/image/thumbnail/thumbnail-incheon.png'),
 };
