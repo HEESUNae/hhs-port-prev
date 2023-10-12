@@ -174,13 +174,13 @@ export const skillApi = [
 
 // PROJECT API
 export const projectApi = [
-  {
-    id: 1,
-    link: 'https://incheon-parking.vercel.app/',
-    thumbnail: thumbnail.incheonParking,
-    info: '인천광역시 주차장 정보 현황 개인프로젝트 "Incheon Parking"',
-    lang: ['HTML', 'CSS', 'TypeScript', 'React.js'],
-  },
+  // {
+  //   id: 1,
+  //   link: 'https://incheon-parking.vercel.app/',
+  //   thumbnail: thumbnail.incheonParking,
+  //   info: '인천광역시 주차장 정보 현황 개인프로젝트 "Incheon Parking"',
+  //   lang: ['HTML', 'CSS', 'TypeScript', 'React.js'],
+  // },
   {
     id: 1,
     link: 'https://best-dilly.vercel.app/',
