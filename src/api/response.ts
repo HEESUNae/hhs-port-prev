@@ -174,43 +174,43 @@ export const skillApi = [
 
 // PROJECT API
 export const projectApi = [
-  // {
-  //   id: 1,
-  //   link: 'https://incheon-parking.vercel.app/',
-  //   thumbnail: thumbnail.incheonParking,
-  //   info: '인천광역시 주차장 정보 현황 개인프로젝트 "Incheon Parking"',
-  //   lang: ['HTML', 'CSS', 'TypeScript', 'React.js'],
-  // },
   {
     id: 1,
+    link: 'https://incheon-parking.vercel.app/',
+    thumbnail: thumbnail.incheonParking,
+    info: '인천광역시 주차장 정보 현황 개인프로젝트 "Incheon Parking"',
+    lang: ['HTML', 'CSS', 'TypeScript', 'React.js'],
+  },
+  {
+    id: 2,
     link: 'https://best-dilly.vercel.app/',
     thumbnail: thumbnail.bestDilly,
     info: '맛집 공유 플랫폼 개인 프로젝트 "Best Dilly"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React.js'],
   },
   {
-    id: 2,
+    id: 3,
     link: 'https://react-mongo-todo-app.vercel.app/',
     thumbnail: thumbnail.todoList,
     info: '직접 CRUD API 기능 구현한 개인 프로젝트 "Todo List"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React.js', 'Node.js', 'MongoDB', 'Mongoose'],
   },
   {
-    id: 3,
+    id: 4,
     link: 'https://nextjs-rabbit.vercel.app/',
     thumbnail: thumbnail.rabbitBlog,
     info: '무료 API를 활용하여 만든 개인 프로젝트 "Support Rabbit Blog"',
     lang: ['HTML', 'CSS', 'TypeScript', 'Next.js'],
   },
   {
-    id: 4,
+    id: 5,
     link: 'https://heesunae.github.io/pokemon/',
     thumbnail: thumbnail.pokemon,
     info: '무료 포켓몬 API를 활용하여 만든 개인 프로젝트 "Pokemon"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React'],
   },
   {
-    id: 5,
+    id: 6,
     link: 'https://pokemon-book-one.vercel.app/',
     thumbnail: thumbnail.pokemonBook,
     info: '<fastcampus> "Pokemon book"',
@@ -218,28 +218,28 @@ export const projectApi = [
   },
 
   {
-    id: 6,
+    id: 7,
     link: 'https://react-disey.web.app/',
     thumbnail: thumbnail.disney,
     info: '<fastcampus> "Disney Plus"',
     lang: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
   {
-    id: 7,
+    id: 8,
     link: 'https://heesunae.github.io/react-tictactoc/',
     thumbnail: thumbnail.tictactoe,
     info: '<fastcampus> "Tic Tac Toe"',
     lang: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
   {
-    id: 8,
+    id: 9,
     link: 'https://heesunae.github.io/Apple-ipad/',
     thumbnail: thumbnail.apple,
     info: '<fastcampus> "Apple Ipad"',
     lang: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    id: 9,
+    id: 10,
     link: 'https://heesunae.github.io/starbucks/',
     thumbnail: thumbnail.starbucks,
     info: '<fastcampus> "Starbucks"',
