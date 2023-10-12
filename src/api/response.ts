@@ -178,7 +178,7 @@ export const projectApi = [
     id: 1,
     link: 'https://incheon-parking.vercel.app/',
     thumbnail: thumbnail.incheonParking,
-    info: '인천광역시 주차장 정보 현황 개인프로젝트 "Incheon Parking"',
+    info: '무료 API를 활용하여 만든 개인프로젝트 "Incheon Parking"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React.js'],
   },
   {
@@ -213,38 +213,39 @@ export const projectApi = [
     id: 6,
     link: 'https://pokemon-book-one.vercel.app/',
     thumbnail: thumbnail.pokemonBook,
-    info: '<fastcampus> "Pokemon book"',
+    info: '무료 포켓몬 API를 활용하여 만든 "Pokemon book" 클론코딩',
     lang: ['HTML', 'TailWindCSS', 'JavaScript', 'React'],
   },
-
   {
     id: 7,
-    link: 'https://react-disey.web.app/',
-    thumbnail: thumbnail.disney,
-    info: '<fastcampus> "Disney Plus"',
-    lang: ['HTML', 'CSS', 'JavaScript', 'React'],
-  },
-  {
-    id: 8,
     link: 'https://heesunae.github.io/react-tictactoc/',
     thumbnail: thumbnail.tictactoe,
-    info: '<fastcampus> "Tic Tac Toe"',
+    info: '"Tic Tac Toe" 게임 클론코딩',
     lang: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
-  {
-    id: 9,
-    link: 'https://heesunae.github.io/Apple-ipad/',
-    thumbnail: thumbnail.apple,
-    info: '<fastcampus> "Apple Ipad"',
-    lang: ['HTML', 'CSS', 'JavaScript'],
-  },
-  {
-    id: 10,
-    link: 'https://heesunae.github.io/starbucks/',
-    thumbnail: thumbnail.starbucks,
-    info: '<fastcampus> "Starbucks"',
-    lang: ['HTML', 'CSS', 'JavaScript'],
-  },
+
+  // {
+  //   id: 7,
+  //   link: 'https://react-disey.web.app/',
+  //   thumbnail: thumbnail.disney,
+  //   info: '<fastcampus> "Disney Plus"',
+  //   lang: ['HTML', 'CSS', 'JavaScript', 'React'],
+  // },
+
+  // {
+  //   id: 8,
+  //   link: 'https://heesunae.github.io/Apple-ipad/',
+  //   thumbnail: thumbnail.apple,
+  //   info: '"Apple Ipad" 클론코딩',
+  //   lang: ['HTML', 'CSS', 'JavaScript'],
+  // },
+  // {
+  //   id: 9,
+  //   link: 'https://heesunae.github.io/starbucks/',
+  //   thumbnail: thumbnail.starbucks,
+  //   info: '"Starbucks" 클론코딩',
+  //   lang: ['HTML', 'CSS', 'JavaScript'],
+  // },
   // {
   //   id: 10,
   //   link: 'https://next-js-maple-story-2w2c.vercel.app/',
