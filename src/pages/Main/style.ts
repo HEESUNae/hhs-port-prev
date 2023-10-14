@@ -78,7 +78,7 @@ export const StyledMain = styled.div`
         }
       }
       &-carrer {
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgb(72 67 67 / 50%);
         border-radius: 0.8rem;
         padding: 3rem;
       }
@@ -86,7 +86,7 @@ export const StyledMain = styled.div`
       &-project {
         .project-container {
           width: 100%;
-          background-color: rgba(0, 0, 0, 0.8);
+          background-color: rgb(72 67 67 / 50%);
           ul {
             border: 0.1rem solid rgba(255, 255, 255, 0.1);
             display: grid;
@@ -126,7 +126,8 @@ export const StyledMain = styled.div`
       &-native {
         .native-container {
           width: 100%;
-          background-color: rgba(0, 0, 0, 0.8);
+          background-color: rgb(72 67 67 / 50%);
+          border: 0.1rem solid rgba(255, 255, 255, 0.1);
           .title {
             font-size: 1.6rem;
           }

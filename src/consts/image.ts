@@ -3,7 +3,8 @@ export const commonImg = {
 };
 
 export const mainImg = {
-  bgMain: require('../assets/image/bg-main.jpg'),
+  // bgMain: require('../assets/image/bg-main.jpg'),
+  bgMain: require('../assets/image/bg-main2.jpg'),
   hsHello: require('../assets/image/hs-hello.png'),
   icoBirth: require('../assets/icon/icon-birth.svg').default,
   icoHandShake: require('../assets/icon/icon-handshake.svg').default,
