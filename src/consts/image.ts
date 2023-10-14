@@ -39,3 +39,12 @@ export const thumbnail = {
   bestDilly: require('../assets/image/thumbnail/thumbnail-bestdilly.jpeg'),
   incheonParking: require('../assets/image/thumbnail/thumbnail-incheon.png'),
 };
+
+export const appImage = {
+  appBus: require('../assets/app/app-bus.png'),
+  appCalc: require('../assets/app/app-calc.png'),
+  appGallery: require('../assets/app/app-gallery.png'),
+  appKakao: require('../assets/app/app-kakao.png'),
+  appTranslate: require('../assets/app/app-translate.png'),
+  appWallpaper: require('../assets/app/app-wallpaper.png'),
+};

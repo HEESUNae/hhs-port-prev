@@ -122,6 +122,43 @@ export const StyledMain = styled.div`
           }
         }
       }
+
+      &-native {
+        .native-container {
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.8);
+          .title {
+            font-size: 1.6rem;
+          }
+          .desc {
+            padding: 3rem 3rem 0;
+          }
+          .badge {
+            font-size: 1.2rem;
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(1rem);
+            padding: 0 1rem;
+            color: #fff;
+            display: inline-block;
+            margin: 1.5rem 0 0.5rem;
+          }
+          ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1.5rem;
+            border-radius: 0.4rem;
+            padding: 3rem;
+            .thumbnail {
+              aspect-ratio: 9/20;
+              overflow: hidden;
+              border-radius: 0.4rem;
+              img {
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
     }
   }
 `;

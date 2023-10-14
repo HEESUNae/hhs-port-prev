@@ -1,4 +1,4 @@
-import { mainImg, skillImg, thumbnail } from '../consts/image';
+import { appImage, mainImg, skillImg, thumbnail } from '../consts/image';
 
 // MYINFO API
 export const myInfoApi = [
@@ -252,5 +252,45 @@ export const projectApi = [
   //   thumbnail: thumbnail.mapleStory,
   //   info: '메이플스토리 이미지를 활용하여 만든 개인 프로젝트 "Mapple Story"',
   //   lang: ['HTML', 'CSS', 'TypeScript', 'Next.js'],
+  // },
+];
+
+// APP API
+export const appApi = [
+  {
+    id: 1,
+    thumbnail: appImage.appWallpaper,
+    title: 'WallPaper',
+    desc: '핸드폰 배경화면을 다운로드 받을 수 있는 어플',
+  },
+  {
+    id: 2,
+    thumbnail: appImage.appTranslate,
+    title: 'Translation',
+    desc: '언어별로 언어 변경해서 볼수있는 포춘쿠키 어플',
+  },
+  {
+    id: 3,
+    thumbnail: appImage.appGallery,
+    title: 'Gallery',
+    desc: '앨범을 만들고 이미지를 추가하는 갤러리 어플',
+  },
+  {
+    id: 4,
+    thumbnail: appImage.appBus,
+    title: 'Kakao Bus',
+    desc: '카카오 버스 도착 정보 어플',
+  },
+  {
+    id: 5,
+    thumbnail: appImage.appKakao,
+    title: 'Kakao friend List',
+    desc: '카카오톡 친구 리스트',
+  },
+  // {
+  //   id: 5,
+  //   thumbnail: appImage.appCalc,
+  //   title: 'WallPaper',
+  //   desc: '핸드폰 배경화면을 다운로드 받을 수 있는 어플',
   // },
 ];

@@ -7,7 +7,7 @@ import { StyledMain } from './style';
 import { mainImg } from '../../consts/image';
 
 // api
-import { myInfoLinkApi, projectApi } from '../../api/response';
+import { appApi, myInfoLinkApi, projectApi } from '../../api/response';
 
 // components
 import ListTable from '../../components/table/CarrerTable';
@@ -110,6 +110,28 @@ const MainPage = () => {
                         </div>
                         <div className="info">{item.info}</div>
                       </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="inner">
+            <div className="hs-native">
+              <div className="title">APP</div>
+              <div className="native-container">
+                <p className="desc">React Native 패스트캠퍼스 인터넷 강의를 수강하며 클론코딩한 프로젝트 입니다.</p>
+                <ul>
+                  {appApi.map((item) => (
+                    <li key={item.id}>
+                      <figure className="thumbnail">
+                        <img src={item.thumbnail} alt="" />
+                      </figure>
+                      <p className="badge">클론코딩</p>
+                      <p className="title">{item.title}</p>
+                      <div className="info">{item.desc}</div>
                     </li>
                   ))}
                 </ul>

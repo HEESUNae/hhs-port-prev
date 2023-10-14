@@ -98,14 +98,24 @@ section {
     background-color: transparent !important;
     padding: 4rem 0 0 !important;
   }
-  .hs-project {
-    .project-container {
-      background-color: transparent !important;
-    }
-    ul {
-      grid-template-columns: auto !important;
-    }
+  .hs-project .project-container {
+    background-color: transparent !important;
   }
+  .hs-project .project-container ul {
+    grid-template-columns: auto !important;
+  }
+
+  .hs-native .native-container {
+    background-color: transparent !important;
+  }
+  .hs-native .native-container .desc {
+    padding: 0 0 2rem !important;
+  }
+  .hs-native .native-container ul {
+    grid-template-columns: auto !important;
+    padding: 0 !important;
+  }
+
   .modal-container {
     width: 100% !important;
   }
