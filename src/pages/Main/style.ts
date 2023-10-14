@@ -114,7 +114,7 @@ export const StyledMain = styled.div`
             flex-wrap: wrap;
             .badge {
               font-size: 1.2rem;
-              background-color: rgba(255, 255, 255, 0.3);
+              background-color: rgb(141 137 137 / 30%);
               backdrop-filter: blur(1rem);
               padding: 0 1rem;
               color: #fff;
@@ -136,7 +136,7 @@ export const StyledMain = styled.div`
           }
           .badge {
             font-size: 1.2rem;
-            background-color: rgba(255, 255, 255, 0.3);
+            background-color: rgb(141 137 137 / 30%);
             backdrop-filter: blur(1rem);
             padding: 0 1rem;
             color: #fff;
