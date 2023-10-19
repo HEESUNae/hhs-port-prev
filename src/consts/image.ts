@@ -39,6 +39,7 @@ export const thumbnail = {
   starbucks: require('../assets/image/thumbnail/thumbnail-starbucks.jpg'),
   bestDilly: require('../assets/image/thumbnail/thumbnail-bestdilly.jpeg'),
   incheonParking: require('../assets/image/thumbnail/thumbnail-incheon.png'),
+  coverGirl: require('../assets/image/thumbnail/thumbnail-covergirl.jpeg'),
 };
 
 export const appImage = {
