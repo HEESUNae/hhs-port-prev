@@ -4,7 +4,8 @@ import { styled } from 'styled-components';
 import { mainImg } from '../../consts/image';
 
 export const StyledMain = styled.div`
-  background: url(${mainImg.bgMain}) no-repeat 0% 0%;
+  background-color: #222;
+  /* background: url(${mainImg.bgMain}) no-repeat 0% 0%; */
   min-height: 108rem;
   background-size: cover;
   main {
