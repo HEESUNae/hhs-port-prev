@@ -176,20 +176,27 @@ export const skillApi = [
 export const projectApi = [
   {
     id: 1,
+    link: 'https://sweet-potato.vercel.app/',
+    thumbnail: thumbnail.sweet,
+    info: '직접 CRUD API 기능 구현한 개인 포트폴리오 "고답"',
+    lang: ['HTML', 'CSS', 'TypeScript', 'React', 'Node.js', 'MongoDB', 'Mongoose'],
+  },
+  {
+    id: 2,
     link: 'https://react-cover-girl.vercel.app/',
     thumbnail: thumbnail.coverGirl,
     info: 'CoverGril 브랜드의 화장품 정보를 알려주는 개인 포트폴리오 "CorverGirl"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React'],
   },
   {
-    id: 2,
+    id: 3,
     link: 'https://best-dilly.vercel.app/',
     thumbnail: thumbnail.bestDilly,
     info: '맛집 공유 플랫폼 개인 포트폴리오 "Best Dilly"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React'],
   },
   {
-    id: 3,
+    id: 4,
     link: 'https://incheon-parking.vercel.app/',
     thumbnail: thumbnail.incheonParking,
     info: '인천광역시 주차장 정보를 알 수 있는 개인 포트폴리오 "Incheon Parking"',
@@ -197,43 +204,43 @@ export const projectApi = [
   },
 
   {
-    id: 4,
+    id: 5,
     link: 'https://react-mongo-todo-app.vercel.app/',
     thumbnail: thumbnail.todoList,
     info: '직접 CRUD API 기능 구현한 개인 포트폴리오 "Todo List"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React', 'Node.js', 'MongoDB', 'Mongoose'],
   },
   {
-    id: 5,
+    id: 6,
     link: 'https://nextjs-rabbit.vercel.app/',
     thumbnail: thumbnail.rabbitBlog,
     info: '무료 API를 활용하여 만든 개인 포트폴리오 "Support Rabbit Blog"',
     lang: ['HTML', 'CSS', 'TypeScript', 'Next.js'],
   },
   {
-    id: 6,
+    id: 7,
     link: 'https://heesunae.github.io/pokemon/',
     thumbnail: thumbnail.pokemon,
     info: '무료 포켓몬 API를 활용하여 만든 개인 포트폴리오 "Pokemon"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React'],
   },
   {
-    id: 7,
+    id: 8,
     link: 'https://pokemon-book-one.vercel.app/',
     thumbnail: thumbnail.pokemonBook,
     info: '무료 포켓몬 API를 활용하여 만든 "Pokemon book" 클론코딩',
     lang: ['HTML', 'TailWindCSS', 'JavaScript', 'React'],
   },
-  {
-    id: 8,
-    link: 'https://heesunae.github.io/react-tictactoc/',
-    thumbnail: thumbnail.tictactoe,
-    info: '"Tic Tac Toe" 게임 클론코딩',
-    lang: ['HTML', 'CSS', 'JavaScript', 'React'],
-  },
+  // {
+  //   id: 9,
+  //   link: 'https://heesunae.github.io/react-tictactoc/',
+  //   thumbnail: thumbnail.tictactoe,
+  //   info: '"Tic Tac Toe" 게임 클론코딩',
+  //   lang: ['HTML', 'CSS', 'JavaScript', 'React'],
+  // },
 
   // {
-  //   id: 7,
+  //   id: 10,
   //   link: 'https://react-disey.web.app/',
   //   thumbnail: thumbnail.disney,
   //   info: '<fastcampus> "Disney Plus"',
@@ -241,14 +248,14 @@ export const projectApi = [
   // },
 
   // {
-  //   id: 8,
+  //   id: 11,
   //   link: 'https://heesunae.github.io/Apple-ipad/',
   //   thumbnail: thumbnail.apple,
   //   info: '"Apple Ipad" 클론코딩',
   //   lang: ['HTML', 'CSS', 'JavaScript'],
   // },
   // {
-  //   id: 9,
+  //   id: 12,
   //   link: 'https://heesunae.github.io/starbucks/',
   //   thumbnail: thumbnail.starbucks,
   //   info: '"Starbucks" 클론코딩',
